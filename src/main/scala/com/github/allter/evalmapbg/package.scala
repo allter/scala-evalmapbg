@@ -1,7 +1,7 @@
 package com.github.allter
 
 import cats.{Applicative, Apply, Monad, Parallel}
-import cats.effect.{Concurrent, ContextShift, ExitCode, Fiber, IO, IOApp}
+import cats.effect.{Concurrent, ContextShift, Fiber}
 import cats.syntax.flatMap._
 import cats.syntax.functor._
 import cats.syntax.apply._
